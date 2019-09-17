@@ -5,7 +5,7 @@
 
 class EmailAddressParser
   
-  def parse
+  def parse(email_addresses)
     email_addresses.map(&:inspect).join(', ')
   end
 end
