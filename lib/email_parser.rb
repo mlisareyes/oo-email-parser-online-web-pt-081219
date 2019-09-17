@@ -6,6 +6,8 @@
 class EmailAddressParser
   attr_accessor :emails
   
+  def initialize(emails)
+  
   def parse(email_addresses)
     email_addresses.map(&:inspect).join(', ')
   end
