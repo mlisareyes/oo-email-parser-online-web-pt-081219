@@ -6,5 +6,6 @@
 class EmailAddressParser
   
   def parse
+    email_addresses.
   end
 end
