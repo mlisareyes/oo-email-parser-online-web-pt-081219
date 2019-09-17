@@ -10,7 +10,5 @@ class EmailAddressParser
     @emails = emails
   end
   
-  def parse(email_addresses)
-    email_addresses.map(&:inspect).join(', ')
-  end
+
 end
